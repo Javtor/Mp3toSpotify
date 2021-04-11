@@ -1,7 +1,3 @@
-import acoustid
-from spotipy.oauth2 import SpotifyOAuth
-import spotipy
-import ctypes
 import sys
 import subprocess
 import os
@@ -18,6 +14,9 @@ install('pyacoustid')
 install('spotipy')
 print('dependencias instaladas')
 
+import acoustid
+from spotipy.oauth2 import SpotifyOAuth
+import spotipy
 
 cid = "766b98550bef4a44b8d111658e985c52"
 secret = "0e2c82a346254d93bc29e6cfec0ef402"
